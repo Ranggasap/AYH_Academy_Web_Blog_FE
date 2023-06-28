@@ -1,0 +1,151 @@
+.aboutMeBackgroundColor{
+    background-color: #f5f5f5;
+    margin-bottom: 25px;
+}
+
+.aboutMe{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .aboutMeTitle{
+        justify-content: center;
+        display: flex;
+        margin-bottom: 20px;
+        font-size: 50px;
+    }
+    
+    .aboutMe-container{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+
+        .aboutMeContent{
+            width: 55%;
+            margin-left: 50px ;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .aboutMeText{
+                margin-bottom: 25px;
+
+                h2{
+                    margin-bottom: 10px;
+                    font-size: 30px;
+                }
+
+                p{
+                    margin-bottom: 5px;
+                }
+            }
+
+        }
+
+    }
+
+    .imgAbout{
+        img{
+            max-height: 360px;
+            border-radius: 25px;
+        }
+    }
+
+    .aboutMe-footer{
+        .btnAbout{
+            display: inline-block;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 4px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+    
+    .aboutMe{
+        margin-left: 25px;
+        margin-right: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        .aboutMeTitle{
+            justify-content: center;
+            display: flex;
+            margin-bottom: 20px;
+            font-size: 50px;
+        }
+        
+        .aboutMe-container{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+    
+            .aboutMeContent{
+                margin-left: 0;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+    
+                .aboutMeText{
+                    margin-bottom: 25px;
+    
+                    h2{
+                        margin-bottom: 10px;
+                        font-size: 30px;
+                    }
+    
+                    p{
+                        margin-bottom: 5px;
+                    }
+                }
+    
+            }
+    
+        }
+    
+        .imgAbout{
+            margin-bottom: 10px;
+            img{
+                max-height: 360px;
+                width: 300px;
+                border-radius: 25px;
+            }
+        }
+    
+        .aboutMe-footer{
+            .btnAbout{
+                display: inline-block;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                background-color: black;
+                color: white;
+                text-align: center;
+                text-decoration: none;
+                font-size: 16px;
+                border-radius: 4px;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    
+        
+}

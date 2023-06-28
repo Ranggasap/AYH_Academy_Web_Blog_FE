@@ -1,0 +1,111 @@
+.contactUs{
+    background-color: white;
+    margin-bottom: 25px;
+
+    .contact-container{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+        iframe{
+            width: 500px;
+            height: 500px;
+        }
+
+        .contactContentContainer{
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+
+        .contactText{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            h1{
+                font-size: 100px;
+            }
+
+            .btn{
+                width: 100%;
+            }
+
+        }
+        .contactFooter{
+            font-size: 20px;
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    
+    .contactUs{
+        margin-bottom: 25px;
+    
+        .contact-container{
+            display: flex;
+            justify-content: center;
+            flex-direction: column-reverse;
+            gap: 25px;
+    
+            iframe{
+                width: 300px;
+                height: 300px;
+                margin: 0 auto;
+            }
+    
+            .contactContentContainer{
+                display: flex;
+                gap: 5px;
+                flex-direction: column;
+            }
+    
+            .contactText{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+    
+                h1{
+                    font-size: 50px;
+                    text-align: center;
+                }
+
+                .button-contact-us{
+
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    
+                    .btn{
+                        display: inline-block;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        background-color: black;
+                        color: white;
+                        text-align: center;
+                        text-decoration: none;
+                        font-size: 16px;
+                        border-radius: 4px;
+                        border: none;
+                        cursor: pointer;
+                        padding-left: 0;
+                        padding-right: 0;
+                        margin-bottom: 10px;
+                    }
+                }
+    
+            }
+            .contactFooter{
+                font-size: 20px;
+                text-align: center;
+            }
+        }
+    }
+     
+
+}
